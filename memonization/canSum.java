@@ -11,7 +11,6 @@ public class canSum {
     }
 
     static boolean targetSumMemoized(int[] arr, int target, HashMap<Integer, Boolean> map) {
-        System.out.println(target);
         if (map.containsKey(target)) {
             return map.get(target);
         }
